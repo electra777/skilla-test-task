@@ -1,5 +1,7 @@
-import Employee from '../Employee/Employee';
 import Type from '../Type/Type';
+import Time from '../Time/Time';
+import Employee from '../Employee/Employee';
+
 import styles from './Table.module.scss';
 
 const Table = () => {
@@ -16,7 +18,7 @@ const Table = () => {
 			</div>
 			<div className={styles.tableItem}>
 				<Type />
-
+				<Time />
 				<Employee />
 			</div>
 		</div>
