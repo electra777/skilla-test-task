@@ -1,3 +1,4 @@
+import Type from '../Type/Type';
 import styles from './Table.module.scss';
 
 const Table = () => {
@@ -11,6 +12,9 @@ const Table = () => {
 				<div className={styles.sourse}>Источник</div>
 				<div className={styles.grade}>Оценка</div>
 				<div className={styles.duration}>Длительность</div>
+			</div>
+			<div className={styles.tableItem}>
+				<Type />
 			</div>
 		</div>
 	);
