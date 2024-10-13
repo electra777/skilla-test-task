@@ -1,0 +1,14 @@
+.table {
+  color: #5E7793;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 24px 24px 40px 40px;
+}
+
+.tableItem {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-content: space-between;
+  border-bottom: 1px solid #EAF0FA;
+  padding: 16px 0;
+}
