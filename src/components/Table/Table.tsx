@@ -1,3 +1,4 @@
+import Time from '../Time/Time';
 import Type from '../Type/Type';
 import styles from './Table.module.scss';
 
@@ -15,6 +16,7 @@ const Table = () => {
 			</div>
 			<div className={styles.tableItem}>
 				<Type />
+				<Time />
 			</div>
 		</div>
 	);
