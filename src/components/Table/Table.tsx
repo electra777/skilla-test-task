@@ -1,3 +1,4 @@
+import Employee from '../Employee/Employee';
 import Type from '../Type/Type';
 import styles from './Table.module.scss';
 
@@ -15,6 +16,8 @@ const Table = () => {
 			</div>
 			<div className={styles.tableItem}>
 				<Type />
+
+				<Employee />
 			</div>
 		</div>
 	);
