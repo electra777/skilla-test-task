@@ -3,6 +3,7 @@ import Time from '../Time/Time';
 import Employee from '../Employee/Employee';
 
 import styles from './Table.module.scss';
+import Source from '../Source/Source';
 
 const Table = () => {
 	return (
@@ -20,6 +21,8 @@ const Table = () => {
 				<Type />
 				<Time />
 				<Employee />
+
+				<Source />
 			</div>
 		</div>
 	);
