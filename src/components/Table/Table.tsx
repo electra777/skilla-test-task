@@ -3,10 +3,9 @@ import Time from '../Time/Time';
 import Employee from '../Employee/Employee';
 import Phone from '../Phone/Phone';
 import Source from '../Source/Source';
+import Grade from '../Grade/Grade';
 
 import styles from './Table.module.scss';
-
-
 
 const Table = () => {
 	return (
@@ -24,9 +23,9 @@ const Table = () => {
 				<Type />
 				<Time />
 				<Employee />
-        <Phone />
+				<Phone />
 				<Source />
-
+				<Grade />
 			</div>
 		</div>
 	);
