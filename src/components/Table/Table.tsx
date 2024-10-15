@@ -5,6 +5,7 @@ import Phone from '../Phone/Phone';
 import Source from '../Source/Source';
 import Grade from '../Grade/Grade';
 
+import Duration from '../Duration/Duration';
 import styles from './Table.module.scss';
 
 const Table = () => {
@@ -26,6 +27,8 @@ const Table = () => {
 				<Phone />
 				<Source />
 				<Grade />
+				<Duration />
+
 			</div>
 		</div>
 	);
