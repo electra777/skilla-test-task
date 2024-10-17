@@ -5,10 +5,15 @@
   padding: 24px 24px 40px 40px;
 }
 
-.tableItem {
+.row {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid #EAF0FA;
   padding: 16px 0;
+}
+
+.row div:last-of-type {
+  text-align: right;
 }
